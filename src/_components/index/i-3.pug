@@ -1,0 +1,40 @@
+section.home-collapse
+    .home-text.text-center
+        h2 Làm sao tôi có thể tìm kiếm những chỗ nghỉ này?
+    .container
+        #accordion.myaccordion
+            .card
+                #headingOne.card-header
+                    h2.mb-0
+                        button.d-flex.align-items-center.justify-content-between.btn.btn-link(data-toggle='collapse', data-target='#collapseOne', aria-expanded='true', aria-controls='collapseOne')
+                            p Nhận chìa khóa
+                            span.fa-stack.fa-sm
+                                i.fas.fa-circle.fa-stack-2x
+                                i.fas.fa-minus.fa-stack-1x.fa-inverse
+                #collapseOne.collapse.show(aria-labelledby='headingOne', data-parent='#accordion')
+                    .card-body
+                        p Bạn có thể liên lạc trực tiếp với chủ chỗ nghỉ để được hướng dẫn cách nhận chìa khóa. Dù là gặp mặt trực tiếp hay nhận chìa qua hộp thư, cách nào cũng dễ dàng để bạn có thể mở khóa vào chỗ nghỉ và bắt đầu tận hưởng kỳ nghỉ của mình!
+            .card
+                #headingTwo.card-header
+                    h2.mb-0
+                        button.d-flex.align-items-center.justify-content-between.btn.btn-link.collapsed(data-toggle='collapse', data-target='#collapseTwo', aria-expanded='false', aria-controls='collapseTwo')
+                            p Trao đổi với chủ chỗ nghỉ
+                            span.fa-stack.fa-2x
+                                i.fas.fa-circle.fa-stack-2x
+                                i.fas.fa-plus.fa-stack-1x.fa-inverse
+                #collapseTwo.collapse(aria-labelledby='headingTwo', data-parent='#accordion')
+                    .card-body
+                        p Bạn có thể liên lạc trực tiếp với chủ chỗ nghỉ để được hướng dẫn cách nhận chìa khóa. Dù là gặp mặt trực tiếp hay nhận chìa qua hộp thư, cách nào cũng dễ dàng để bạn có thể mở khóa vào chỗ nghỉ và bắt đầu tận hưởng kỳ nghỉ của mình!
+
+            .card
+                #headingThree.card-header
+                    h2.mb-0
+                        button.d-flex.align-items-center.justify-content-between.btn.btn-link.collapsed(data-toggle='collapse', data-target='#collapseThree', aria-expanded='false', aria-controls='collapseThree')
+                            p Nhận chỗ nghỉ
+                            span.fa-stack.fa-2x
+                                i.fas.fa-circle.fa-stack-2x
+                                i.fas.fa-plus.fa-stack-1x.fa-inverse
+                #collapseThree.collapse(aria-labelledby='headingThree', data-parent='#accordion')
+                    .card-body
+                        p Bạn có thể liên lạc trực tiếp với chủ chỗ nghỉ để được hướng dẫn cách nhận chìa khóa. Dù là gặp mặt trực tiếp hay nhận chìa qua hộp thư, cách nào cũng dễ dàng để bạn có thể mở khóa vào chỗ nghỉ và bắt đầu tận hưởng kỳ nghỉ của mình!
+

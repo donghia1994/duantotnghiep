@@ -1,0 +1,26 @@
+.home-search-type{
+    width: 100%;
+    .home-tope-under{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .card{
+        .card-img{
+            object-fit: cover;
+            height: 486px;
+        }
+        .card-img-custom1,
+        .card-img-custom2 {
+            height: 233px;
+        }
+        .card-img-custom3{
+            height: 416px;
+        }
+        .card-img-overlay{
+            width: 317px;
+            height: 122px;
+            border-radius: 10px;
+            background-color: rgba($color: $color-white , $alpha: .5);
+        }
+    }
+}

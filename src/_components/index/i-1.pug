@@ -1,0 +1,80 @@
+section.home-banner
+    .swiper-container.slide-home-banner.swiper1
+        .swiper-wrapper
+            .swiper-slide
+                img(src="./assets/img/background4.jpg",alt="")
+                figcaption
+                     p từ 2.999.000
+                     .fas.fa-star
+                     h3 monte carlo
+                     p 20/6-30/07
+                     p.home-text-banner Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            .swiper-slide
+                img(src="./assets/img/background4.jpg",alt="")
+                figcaption
+                     p từ 3.999.000
+                     h3 monte carlo
+                     p 20/6-30/07
+                     p.home-text-banner Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        .swiper-pagination
+    .booking-form
+        .home-search
+            .text-group.text-center
+                p HÀNH TRÌNH CỦA BẠN VỚI CHÚNG TÔI
+                h3 TÌM CHỖ Ở HOÀN HẢO
+            form.home-search-form(action="")
+                .form-group
+                    label.home-label(for='home-amz') Điểm đến lí tưởng
+                    .input-group.mb-3
+                        .input-group-prepend
+                            span#basic-addon1.input-group-text @
+                        input.form-control(list='ide', name='ide', type='text', placeholder='Nhập điểm đến hoặc tên cơ sở lưu trú', aria-label='', aria-describedby='basic-addon1')
+                        datalist#ide
+                            option(value='thành phố hcm')
+                            option(value='hà nội')
+                            option(value='đà nẵng')
+                            option(value='nha trang')
+                            option(value='vũng tàu')
+                .form-row
+                    .col-md-6.mb-3
+                        .form-group
+                            label(for="home-amz").home-label Ngày nhận phòng
+                            .input-group.mb-3
+                                .input-group-prepend
+                                    span#basic-addon1.input-group-text @
+                                input.form-control(type='date', aria-label='checkIn', aria-describedby='basic-addon1')
+                    .col-md-6.mb-3
+                        .form-group
+                            label(for="home-amz").home-label Ngày trả phòng
+                            .input-group.mb-3
+                                .input-group-prepend
+                                    span#basic-addon2.input-group-text @
+                                input.form-control(type='date', aria-label='checkOut', aria-describedby='basic-addon2')
+                .form-row
+                    .col-md-4.mb-3
+                        .form-group
+                            label(for="home-amz").home-label Trẻ em
+                            select#inputState.form-control.form-edit
+                                option(selected='') 1 Trẻ em
+                                option ...
+                    .col-md-4.mb-3
+                        .form-group
+                            label(for="home-amz").home-label Ngưởi lớn
+                            select#inputState.form-control.form-edit
+                                option(selected='') 1 người lớn
+                                option ...
+                    .col-md-4.mb-3
+                        .form-group
+                            label(for="home-amz").home-label Phòng
+                            select#inputState.form-control.form-edit
+                                option(selected='') 1 Phòng
+                                option ...
+            .home-button
+                button.btn.btn-search Tìm kiếm ngay
+
+                
+                        
+                    
+
+
+            

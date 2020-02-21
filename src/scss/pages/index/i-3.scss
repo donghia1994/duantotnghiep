@@ -1,0 +1,46 @@
+$color-bluegreen : #139980;
+.home-collapse{
+    width: 100%;
+    color: $color-bluegreen;
+    .myaccordion {
+        max-width: 100%;
+        // margin: 50px auto;
+        box-shadow: 0 0 1px rgba(0,0,0,0.1);
+        .card {
+            border: none;
+            &:last-child {
+                .card-header {
+                    border: none;
+                }
+            }
+        }
+        .card-header {
+            border-bottom-color: #EDEFF0;
+            background: transparent;
+        }
+        .fa-stack {
+            font-size: 18px;
+        }
+        .btn {
+            width: 100%;
+            font-weight: bold;
+            padding: 0;
+            color: $color-bluegreen;
+        }
+        .btn-link {
+            &:hover {
+                text-decoration: none;
+            }
+            &:focus {
+                text-decoration: none;
+            }
+        }
+        li {
+            + {
+                li {
+                    margin-top: 0px;
+                }
+            }
+        }
+    }
+}
